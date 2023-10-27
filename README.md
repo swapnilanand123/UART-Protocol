@@ -41,4 +41,7 @@ UART, which stands for Universal Asynchronous Receiver/Transmitter, is a widely 
 
 Data in UART is transmitted in the form of frames.
 
+![image](https://github.com/swapnilanand123/UART-Protocol/assets/143795450/8275d73b-b691-4713-8de2-e2fb548e5fcc)
+
+
 Understanding the UART protocol is essential for VLSI students as it's a fundamental building block for many digital communication systems. Designing and integrating UART modules into VLSI chips allows for data exchange between different digital components, making it a crucial skill in modern semiconductor design.
