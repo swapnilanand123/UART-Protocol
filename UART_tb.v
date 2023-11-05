@@ -45,18 +45,11 @@ module tb_uart;
 
     #50 rst = 0;
 
-    // Test cases
-    // Case 1: Transmitter sends data, Receiver receives it
     newd = 1;
-    tx_data = 8'b10101010; // Example data
-    // You may need to add a delay here to allow for communication to complete
+    tx_data = 8'b10101010; 
+   
     #100;
     newd = 0;
-
-    // Case 2: Additional test cases can be added here
-    // Example: Sending a different set of data
-
-    // You can add more test cases to cover various scenarios
 
     $finish; // Finish simulation
   end
